@@ -1,0 +1,89 @@
+/*:HOVER*/
+
+/*hover button to my skills from home page*/
+.skills_crayon_box:hover {
+	
+	background-color:$color-links;
+	a{
+	color:$color-highlight;	
+	}
+}
+
+
+#contact_button a{
+	color:$color-links;	
+}
+
+/*hover button on bio 'about me'*/
+
+#contact_button:hover{
+	
+	border:solid 4px $color-highlight;
+	font-weight:bold;
+		a{
+	text-decoration: none;
+	font-size:1.063em;
+	
+
+	}
+
+}
+
+
+
+/*main nav hover styling*/
+nav ul li a:hover{
+	text-decoration: none;
+	border-bottom: solid 3px $color-links;
+}
+
+/*Footer hover styling*/
+.contact_link:hover{
+	text-decoration: none;
+	border-bottom: solid 1px $color-highlight;
+	}
+
+#social_networks a:hover.github_text{
+	border-bottom: solid 1px $color-links;
+}
+
+#social_networks a:hover.twitter_text{
+	border-bottom: solid 1px $color-links;
+}
+
+a.mail_to_link{
+	color:$color-links; 	
+}
+
+ a:hover.mail_to_link{
+	text-decoration: none;
+
+}
+
+a:hover.image_link{
+	text-decoration: none;
+}
+
+
+
+
+/*contact form*/
+
+.send_button:hover{
+	color: $color-highlight;
+	border:solid 4px $color-highlight;
+	background-color: $color-links;
+	@include roundy(9px);
+	height:40px;
+	width:145px;
+}
+
+/*explore button*/
+
+.explore_button:hover{
+	font-size:1.313em;
+	width:190px;
+	height:43px;
+}
+
+

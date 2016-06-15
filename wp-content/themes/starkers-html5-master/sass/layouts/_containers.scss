@@ -1,0 +1,42 @@
+
+
+
+/*Full page wrapper*/
+
+div.wrapper{
+	min-width: 100%;
+	@include block-center;
+	
+	z-index: -50;
+	
+}
+
+
+
+
+
+/*main nav-bar container*/
+
+.nav_container{
+	height:100%;
+	width:100%;
+	
+}
+
+/*Treehouse badges*/
+
+.wptreehouse-badges{
+	width:85%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:30;
+	
+	margin-bottom:30px;
+@media screen and (max-width: 972px) {
+	width:60%;
+	
+	}
+}
+
+

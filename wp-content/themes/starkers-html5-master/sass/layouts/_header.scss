@@ -1,0 +1,17 @@
+/*Logo*/
+
+.logo_div{
+	z-index:1 ;
+	position: relative;
+	bottom:-60px;
+	
+}
+
+.logo_image{
+	z-index:1;
+	
+	opacity: 0.8;
+	
+	@include block-center;
+	
+}

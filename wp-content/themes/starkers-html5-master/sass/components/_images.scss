@@ -1,0 +1,61 @@
+/*bio image*/
+
+.bio_image{
+	background-image: url("../images/bio_image.png");
+	z-index: 5;
+	background-repeat: no-repeat;
+
+	@media screen and (max-width: 745px) {
+	background-image: url("../images/bio_image2.png");	
+	}	
+
+}
+
+
+
+/*portfolio arrow image*/
+div.arrow_div{
+	width:100%;
+	text-align: center;
+	display:block;
+	width:100%;
+	position: relative;
+	bottom:-270px;
+}
+
+.arrow_div img{
+	
+	
+	z-index: 5;
+	
+	margin:0 auto;
+}
+
+
+/*contact form paper image*/
+
+
+div.note_paper_image {
+
+	background-image: url("../images/paper1.png");
+	background-repeat: no-repeat;
+	z-index: 5;
+	height:500px;
+	width: 700px;
+	position:relative;
+	bottom:-30px;
+	@include block-center;
+	text-align: center;
+			@media screen and (max-width: 745px) {
+			background-image: url("../images/paper2.png");
+			width: 410px;
+			bottom:-50px;
+			display: block;
+			margin: 0 auto;
+			right:50px;
+			}	
+
+}
+
+
+

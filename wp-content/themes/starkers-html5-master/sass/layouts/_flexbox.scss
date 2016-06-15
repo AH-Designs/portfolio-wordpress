@@ -1,0 +1,103 @@
+/*FLEXBOX ABOUT_ME*/
+
+.about_me_flex_container{
+	display:flex;
+	width:100%;
+	justify-content:center;
+	margin-left:auto;
+	margin-right:auto;
+	flex-wrap:wrap;
+	flex-direction:row;
+	margin-top: 34px;
+	height:500px;
+
+			
+} 
+
+.flex_item{
+	height:480px;
+	width:470px;
+	padding-left:-100px;
+	padding-right:-100px;
+	flex-self:center;
+	
+	}
+
+
+.bio_flex_item2{
+
+		background-image: url("../images/pinned.png");
+		background-repeat: no-repeat;
+		@media screen and (max-width: 1009px) {
+		height:460px;
+		width:550px;
+		order:-1;
+		}
+		@media screen and (max-width: 745px) {
+		background-image: url("../images/pinned2.png");
+		width:400px;
+		margin-left:auto;
+		margin-right:auto;
+		}
+}
+
+
+/*flex container button bio...contact me button*/
+
+.button_flex_contianer{
+	display: flex;
+
+	
+}
+
+.contact_button{
+	margin: auto;
+}
+		
+		@media screen and (max-width: 1009px) {
+
+				.bio_flex_item1{
+					margin-top: 50px;
+					margin-left:50px;
+				}
+		}
+
+		
+		@media screen and (max-width: 450px) {
+
+				.bio_flex_item1{	
+				margin:0;
+				}
+		}
+
+/*portfolio felxbox styling*/
+
+.portfolio_flex_container{
+	display: flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	flex-direction:row;
+	margin-top: 65px;
+
+}
+
+.portfolio_flex_item{
+	display: flex;
+	flex-direction:column;
+	margin:20px;
+	padding:25px;
+	
+	text-align: center;
+	width:370px;
+
+}
+
+/*flex styling for portfolio explore buttons*/
+
+.explore_button{
+	margin-top: auto;
+	align-self:center;
+	
+}
+
+

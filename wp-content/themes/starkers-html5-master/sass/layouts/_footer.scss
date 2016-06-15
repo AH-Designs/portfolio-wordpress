@@ -1,0 +1,100 @@
+/*Footer styling*/
+
+/*Footer styling*/
+
+#footer{
+	
+	background-color: black;
+	height:100px;
+	z-index: 10;
+	position: relative;
+	top:0px;
+	margin-left:0;
+	margin-right:0;
+	@media screen and (max-width: 1045px) {
+	height:150px;	
+
+	}
+
+}
+
+
+
+
+#social_networks{
+	position: relative;
+	top:15px;
+	ul{
+	text-align: right;
+	margin-right: 70px;
+	list-style: none;
+	}
+
+
+	a{
+	text-decoration: none;
+	color:$color-highlight;
+	font-weight: bold;
+	font-size: 0.938em;
+	margin-left:20px;
+	}
+.github_text{
+		margin-left: 25px;
+	}
+		@media screen and (max-width: 1177px){
+			 	a{
+				margin-left:10px;	
+				}
+				ul{
+				margin-right: 10px;
+				}
+		}
+
+}
+
+#envelope_icon{
+	font-size: 1.063em;
+}
+
+
+
+ul li.twitter p{
+	margin-right: -4px;
+}
+
+
+
+
+#say_hello{
+	position: relative;
+	top:45px;
+	left:69px;
+			@media screen and (max-width: 1045px) {
+			left:10px;
+			}
+	 p{
+	font-weight: bold;
+	color: $color-highlight;
+	font-size:0.938em;
+	}
+}
+
+.contact_link{
+	color:$color-links;
+	font-size: 0.938em;
+}
+
+			@media screen and (max-width: 622px) {
+			a.twitter_text, a.github_text {
+			display: none;
+			}
+			.github_icon{
+				padding-right:15px;
+			}
+			.twitter_icon{
+				padding-right:15px;
+			}	
+}
+
+
+

@@ -1,0 +1,37 @@
+/*about me section*/
+
+.about_me{
+	height:100%;
+	position:relative;
+	bottom:40px;
+	display: block;
+}
+
+
+/*intro portfolio section... where my main portfolio is*/
+/*Section*/
+
+.my_portfolio{
+	position: relative;
+	bottom:40px;
+	
+}
+
+
+
+.portfolio{
+	position:relative;
+	top:300px;
+	@media screen and (max-width: 710px) {
+	top:270px;
+	}
+	@media screen and (max-width: 588px) {
+	top:250px;
+	}
+	@media screen and (max-width: 426px) {
+	top:350px;
+	}
+}
+
+
+

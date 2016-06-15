@@ -1,0 +1,166 @@
+
+/*****************************BUTTON STYLING***********************/
+
+/*my skills crayon box button*/
+.skills_crayon_box {
+	font-size:1.563em;
+	background-color:$color-highlight; 	 
+	text-align: center;
+	z-index: 1;
+	margin-top: 36px;
+	width:280px;
+	font-family: $buttons;
+	font-weight:bold;
+	box-shadow:2px 2px 2px 12px 13px #DE9BCA;
+	@include block-center;
+	height: 42px;
+	@include roundy(12px);
+	a {
+	text-decoration: none;
+	color:$color-links;
+	}
+}
+
+/*contact me button in bio*/
+
+#contact_button{
+	height:32.5px;
+	width:150px;
+	border:solid 4px $color-links;
+	background-color: #ffffff;
+	display: block;
+	@include roundy(8px);
+	margin:0 auto;
+	color:$color-links;
+	text-align: center;
+	font-family:$buttons;
+		
+	}
+
+
+/*styling explore buttons*/
+
+.explore_button{
+
+	height:40px;
+	width:130px;
+	font-size:1.125em;
+	background-color: $color-highlight;
+	border:solid 3px $color-links;
+	color:$color-links;
+	@include roundy(13px);
+	font-weight: bold;
+	width:160px;
+	font-family:$buttons;
+	
+
+}
+/**********************FORM STYLING*********************/
+
+
+
+/*styling my form*/
+
+label{
+	font-size:1.063em;
+			@media screen and (max-width: 745px) {
+			font-size:0.813em;
+			}
+}
+
+.form{
+	position: relative;
+	top:100px;
+	left:25px;
+			@media screen and (max-width: 745px) {
+			top:77px;
+			left:76px;
+			width:360px;
+			margin-right:0;
+			}
+
+}
+
+.input_name, .input_email{
+	height: 30px;
+	width:260px;
+	border:solid 2px $brighten-yellow;
+	background-color: $color-highlight;
+	margin: 10px;
+			@media screen and (max-width: 745px) {
+			width:170px;
+			}
+					
+	} 
+
+.input_message{
+	height: 175px;
+	width:260px;
+	border:solid 2px $brighten-yellow;
+	background-color: $color-highlight;
+	position: relative;
+	right:25;
+	position: relative;
+	right:15px;
+	margin:5px;
+
+			@media screen and (max-width: 745px) {
+			height: 155px;
+			width:170px;
+			right:12px;
+			}
+
+}
+
+button.send_button{
+	height:40px;
+	width:140px;
+	margin-top:10px;
+	background-color: $color-highlight;
+	border:solid 4px $color-links;
+	color:$color-links;
+	@include roundy(9px);
+	font-weight: bold;
+	font-family:$buttons;
+	font-size:1.313em;
+} 
+
+
+
+
+button.send_button:hover{
+	color: $color-highlight;
+	border:solid 4px $color-highlight;
+	background-color: $color-links;
+	@include roundy(9px);
+}
+
+
+
+.message_box{
+	position: relative;
+	bottom:152px;
+	right:26px;
+			@media screen and (max-width: 745px) {
+			right:18px;
+
+			}
+	
+}
+
+@media screen and (max-width: 745px) {
+
+			.form_div{
+				width:500px;
+				margin:0 auto;
+			}
+
+}
+
+
+
+
+
+
+
+
